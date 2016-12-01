@@ -1,0 +1,11 @@
+# test environment
+test-configuration: mobile-android-galaxys7edge
+
+# AUT app builds
+test_app:
+    android:
+        file: base.apk
+        activity: com.openstream.cueme.services.screen.WBBrowserRenderer
+
+# environment and specs
+page_spec_file_root: pageSpecs

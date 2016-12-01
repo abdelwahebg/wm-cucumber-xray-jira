@@ -1,0 +1,21 @@
+# Test Configuration Registry
+desktop-fedora24-chrome:
+    os: windows
+    browser: chrome
+    mode: local
+mobile-android-nexus6:
+    os: android
+    browser: app
+    mode: local
+    device: Android
+    deviceName: Nexus6
+    platformName: Android
+    appFilePath: /opt/dev/walmart/POC/app_files
+mobile-android-galaxys7edge:
+    os: android
+    browser: app
+    mode: local
+    device: Android
+    deviceName: GalaxyS7Edge
+    platformName: Android
+    appFilePath: /opt/dev/walmart/POC/app_files
